@@ -1,0 +1,100 @@
+{
+  "users": [
+    {
+      "id": 54928101,
+      "user": {
+        "id": "abc",
+        "name": "Adam"
+      },
+      "username": "Leopoldo_Corkery",
+      "title": "Cat Cabaret",
+      "email": "Nathan@yesenia.net",
+      "location": "Meow Town",
+      "picture": "https://picsum.photos/id/237/100/50?grayscale"
+    },
+    {
+      "id": 8419988,
+      "user": {
+        "id": "abc123",
+        "name": "Bojsns"
+      },
+      "username": "Elwyn.Skiles",
+      "title": "Kitty Cluster",
+      "email": "Nathan@yesenia.net",
+      "location": "Catlandia",
+      "picture": "https://picsum.photos/id/257/100/50?grayscale"
+    },
+    {
+      "id": 4582797,
+      "user": {
+        "id": "123",
+        "name": "Miki"
+      },
+      "username": "nekadadoja",
+      "title": "Kitty Cluster",
+      "email": "Nathan@yesenia.net",
+      "location": "Puptown ",
+      "picture": "https://picsum.photos/id/267/100/50?grayscale"
+    },
+    {
+      "id": 59268101,
+      "user": {
+        "id": "abc",
+        "name": "Ceca"
+      },
+      "username": "Maxime_Nienow",
+      "title": "Dog Cabaret",
+      "email": "Nathan@yesenia.net",
+      "location": "Meow Town",
+      "picture": "https://picsum.photos/id/237/100/50?grayscale"
+    },
+    {
+      "id": 59228101,
+      "user": {
+        "id": "12",
+        "name": "Nina"
+      },
+      "username": "Delphine",
+      "title": "Cat Cabaret",
+      "email": "Nathan@yesenia.net",
+      "location": "Meow Town",
+      "picture": "https://picsum.photos/id/238/100/50?grayscale"
+    },
+    {
+      "id": 5928101,
+      "user": {
+        "id": "12333",
+        "name": "Maja"
+      },
+      "username": "Moriah.Stanton",
+      "title": " Tree autmun",
+      "email": "Nathan@yesenia.net",
+      "location": "Meow Town",
+      "picture": "https://picsum.photos/id/239/100/50?grayscale"
+    },
+    {
+      "id": 592448101,
+      "user": {
+        "id": "5555",
+        "name": "dora"
+      },
+      "username": "Samantha",
+      "title": "Cat Cabaret",
+      "email": "Nathan@yesenia.net",
+      "location": "Skopje",
+      "picture": "https://picsum.photos/id/227/100/50?grayscale"
+    },
+    {
+      "id": 59285101,
+      "user": {
+        "id": "666",
+        "name": "David"
+      },
+      "username": "Dzordz",
+      "title": "Love and Hope",
+      "email": "Nathan@yesenia.net",
+      "location": "Meow Town",
+      "picture": "https://picsum.photos/id/227/100/50?grayscale"
+    }
+  ]
+}
