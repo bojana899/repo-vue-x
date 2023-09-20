@@ -6,16 +6,9 @@ import router from './router'
 import store from './store/store'
 import 'nprogress/nprogress.css'
 
-
 import axios from 'axios'
 
-
-
-window.axios = axios;
-
-
-
-
+window.axios = axios
 
 Vue.config.productionTip = false
 
@@ -25,7 +18,7 @@ const requireComponent = require.context(
   /Base[A-Z]\w+\.(vue|js)$/
 )
 
-requireComponent.keys().forEach(fileName => {
+requireComponent.keys().forEach((fileName) => {
   const componentConfig = requireComponent(fileName)
 
   const componentName = upperFirst(
@@ -38,5 +31,5 @@ requireComponent.keys().forEach(fileName => {
 new Vue({
   router,
   store,
-  render: h => h(App)
+  render: (h) => h(App),
 }).$mount('#app')

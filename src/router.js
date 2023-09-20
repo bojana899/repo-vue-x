@@ -17,15 +17,14 @@ const router = new Router({
       path: '/',
       name: 'user-list',
       component: UserList,
-      props: true
+      props: true,
     },
     {
       path: '/user/grid',
       name: 'user-grid',
       component: UserGrid,
-      props: true
+      props: true,
     },
-
 
     {
       path: '/user/:id',
@@ -35,35 +34,35 @@ const router = new Router({
       beforeEnter(routeTo, routeFrom, next) {
         store
           .dispatch('user/fetchUser', routeTo.params.id)
-          .then(user => {
+          .then((user) => {
             routeTo.params.user = user
             next()
           })
-          .catch(error => {
+          .catch((error) => {
             if (error.response && error.response.status == 404) {
               next({ name: '404', params: { resource: 'user' } })
             } else {
               next({ name: 'network-issue' })
             }
           })
-      }
+      },
     },
     {
       path: '/404',
       name: '404',
       component: NotFound,
-      props: true
+      props: true,
     },
     {
       path: '/network-issue',
       name: 'network-issue',
-      component: NetworkIssue
+      component: NetworkIssue,
     },
     {
       path: '*',
-      redirect: { name: '404', params: { resource: 'page' } }
-    }
-  ]
+      redirect: { name: '404', params: { resource: 'page' } },
+    },
+  ],
 })
 
 router.beforeEach((routeTo, routeFrom, next) => {
