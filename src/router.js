@@ -1,12 +1,12 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import UserList from './views/UserList.vue'
-import UserGrid from './views/UserGrid.vue'
-import UserShow from './views/UserShow.vue'
+import UserCard from './components/UserCard'
+////import UserGrid from './views/UserGrid.vue'
+//import UserShow from './views/UserShow.vue'
 import NProgress from 'nprogress'
 import store from '@/store/store'
-import NotFound from './views/NotFound.vue'
-import NetworkIssue from './views/NetworkIssue.vue'
+//import NotFound from './views/NotFound.vue'
+//import NetworkIssue from './views/NetworkIssue.vue'
 
 Vue.use(Router)
 
@@ -16,7 +16,7 @@ const router = new Router({
     {
       path: '/',
       name: 'user-list',
-      component: UserList,
+      component: UserCard,
       props: true,
     },
     {
