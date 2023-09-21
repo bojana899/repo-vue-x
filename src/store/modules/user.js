@@ -73,7 +73,7 @@ export const actions = {
   },
 
   orderUsers({ commit, state }, data) {
-    let localUsers = state.users
+    var localUsers = state.users
 
     switch (data.order) {
       case 'username':
